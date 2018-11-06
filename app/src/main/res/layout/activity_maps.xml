@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_height="wrap_content"
+android:layout_width="wrap_content">
+
+<fragment
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/map"
+    tools:context=".MapsActivity"
+    android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+<ImageButton
+    android:id="@+id/btn_draw_State"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_gravity="right|bottom"
+    android:background="@drawable/ic_add_map"
+    android:layout_marginBottom="55dp"
+    android:layout_marginRight="11dp" />
+</FrameLayout>

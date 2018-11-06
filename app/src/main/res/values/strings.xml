@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Example1</string>
+    <string name="title_activity_maps">Wander</string>
+    <string name="normal_map">Mapa normal</string>
+    <string name="hybrid_map">Mapa Hibrido</string>
+    <string name="satellite_map">Mapa satelital</string>
+    <string name="terrain_map">Mapa de Terreno</string>
+    <string name="dropped_pin">Organismo Encontrado</string>
+    <string name="title_activity_insert_maps">Map</string>
 </resources>
